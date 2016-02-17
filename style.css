@@ -41,3 +41,7 @@
 .boxType3 {
   background: blue;
 }
+
+.puppyImage {
+  content: url('http://myhoneysplace.com/wp-content/uploads/2013/06/yellow-lab-puppy.jpg');
+}

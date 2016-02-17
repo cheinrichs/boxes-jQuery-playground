@@ -15,16 +15,16 @@ $(function(){
   });*/
 
   //********* 3 **********//
-  /*$('.box').on('click', function(){
+  $('.box').on('click', function(){
     if($(this).hasClass("puppyImage")){
-      $(this).removeClass("puppyImage").css({"padding-top":"10px"});
+      $(this).removeClass("puppyImage").css({"padding-top":"10px", "height": "90%"});
     } else {
-      $(this).addClass("puppyImage").css({"padding-top":"0px"});
+      $(this).addClass("puppyImage").css({"padding-top":"0px", "height": "96%"});
     }
-  });*/
+  });
 
   //********* 4 **********//
-  document.getElementById("container").addEventListener("click", function(event){
+  /*document.getElementById("container").addEventListener("click", function(event){
 
     if( event.target.id === "container" ){
       event.target.style.backgroundColor = "#00ff00";
@@ -33,6 +33,6 @@ $(function(){
       this.style.backgroundColor = "black";
     }
 
-  }, false);
+  }, false);*/
 
 });
